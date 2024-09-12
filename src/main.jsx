@@ -7,9 +7,9 @@ import "./index.css";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <NextUIProvider>
-      <div className="dark text-foreground bg-gradient-to-l from-[#373E44] to-[#191B1F]">
+      <main className="dark text-foreground bg-gradient-to-l from-[#373E44] to-[#191B1F]">
         <App />
-      </div>
+      </main>
     </NextUIProvider>
   </StrictMode>
 );
