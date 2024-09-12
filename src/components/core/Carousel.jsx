@@ -80,7 +80,7 @@ function CarouselNavigation({ className, classNameButton, alwaysShow }) {
   return (
     <div
       className={`
-        pointer-events-none absolute right-0 top-20 flex w-[15%] -translate-y-1/2 justify-between px-2
+        pointer-events-none absolute right-0 top-20 flex w-[16px] -translate-y-1/2 justify-between px-2
         ${className}
       `}
     >

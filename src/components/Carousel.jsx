@@ -63,7 +63,7 @@ const CustomCarousel = () => {
               <FaPlus /><span className="max-sm:hidden">Add Image</span>
               </Button>
               <CarouselNavigation
-              className="w-full -mt-11 gap-2 max-sm:mr-4"
+              className="w-full -mt-11 gap-2 max-sm:mr-10 mr-20"
               classNameButton="bg-gradient-to-r from-[#303439] to-[#161718] *:stroke-zinc-50 dark:bg-zinc-400 dark:*:stroke-zinc-800 shadow-[4px_5px_30px_5px_#101113,-5px_-3px_30px_-10px_#95bee6]"
               alwaysShow
             />
