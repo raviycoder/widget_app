@@ -14,7 +14,7 @@ const CustomCarousel = () => {
   // Load image data from localStorage or use initial dummy data
   const [imageData, setImageData] = useState(() => {
     const storedImages = localStorage.getItem("carouselImages");
-    return storedImages ? JSON.parse(storedImages) : ["./DummyImage.jpg"];
+    return storedImages ? JSON.parse(storedImages) : ["./DummyImage.jpg", "./DummyImage.jpg", "./DummyImage.jpg", "./DummyImage.jpg", "./DummyImage.jpg", "./DummyImage.jpg"];
   });
 
   // Function to add a new image
